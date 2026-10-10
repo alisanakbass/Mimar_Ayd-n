@@ -20,34 +20,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
----
-
-### 📷 Kolay Proje Ekleme & Fotoğraf Yükleme
-
-Üst menüdeki artı `(+)` ikonuna tıklayarak açılan yönetim panelinde:
-* URL aramakla uğraşmadan doğrudan **bilgisayarınızdan veya telefonunuzdan 1-2 fotoğraf seçebilirsiniz**.
-* Fotoğraflar otomatik olarak **Supabase Storage** (`project-images` deposuna) yüklenir.
-* Proje eklendiği anda hem ana sitede hem de `/katalog` sayfasında otomatik güncellenir.
-
----
-
-### 🗄️ Supabase Kurulumu
-
-`supabase_schema.sql` dosyasındaki SQL kodlarını Supabase projenizdeki **SQL Editor** sekmesine yapıştırıp çalıştırınız.
-
-`.env` dosyanıza Supabase bilgilerinizi ekleyin:
-```env
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
-```
-
----
-
-### 🌐 Netlify Dağıtımı (Deployment)
-
-1. GitHub deponuzu Netlify'a bağlayın.
-2. Build Command: `npm run build`
-3. Publish Directory: `dist`
-4. Netlify Environment Variables alanına `VITE_SUPABASE_URL` ve `VITE_SUPABASE_ANON_KEY` ekleyin.
-5. Müşterilerinize paylaşacağınız link: `https://siteniz.netlify.app/katalog`
