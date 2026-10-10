@@ -53,6 +53,7 @@ export default function ProjectsSection({ projects, onSelectProject }) {
                   alt={project.title} 
                   className="project-card-image"
                   loading="lazy" 
+                  decoding="async"
                 />
                 <span className="project-card-badge">{project.category}</span>
               </div>

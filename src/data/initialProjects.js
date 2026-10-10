@@ -11,16 +11,16 @@ export const INITIAL_PROJECTS = [
     area: "350 m²",
     status: "Tamamlandı",
     client: "Suffa Vakfı & Külliye Bilim Kültür Derneği",
-    cover_image: "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (2).jpeg",
+    cover_image: "/images/suffa-vakfi/suffa-cover.jpeg",
     images: [
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (2).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (3).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (4).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (5).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (8).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (6).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29 (9).jpeg",
-      "/images/suffa vakfı/WhatsApp Image 2026-10-10 at 21.25.29.jpeg"
+      "/images/suffa-vakfi/suffa-cover.jpeg",
+      "/images/suffa-vakfi/suffa-kutuphane.jpeg",
+      "/images/suffa-vakfi/suffa-giris.jpeg",
+      "/images/suffa-vakfi/suffa-ofis.jpeg",
+      "/images/suffa-vakfi/suffa-etut-oyun.jpeg",
+      "/images/suffa-vakfi/suffa-sedir.jpeg",
+      "/images/suffa-vakfi/suffa-etut.jpeg",
+      "/images/suffa-vakfi/suffa-konferans.jpeg"
     ],
     tagline: "Akustik ahşap çıta seminer salonu, modüler meşe kütüphane, bireysel etüt kabinleri ve gençlik aktivite merkezi",
     description: "Suffa Vakfı bünyesinde Halkalı'da hayata geçirilen Külliye Bilim Kültür Derneği Gençlik Merkezi için anahtar teslim iç mimarlık konsept tasarım ve uygulama projesi. Tavandan duvara uzanan lineer LED aydınlatmalı dikey akustik ahşap çıtalı seminer ve konferans salonu, tavana kadar uzanan masif meşe kitaplık ünitesi, bireysel çalışma ve etüt kabinleri, PlayStation ve langırt oyun alanı, dikey canlı bahçe ve Osmanlı arması panolu karşılama holü, özel tasarım yönetici ofisi ve ahşap sedir dinlenme köşesi ile gençlere hem akademik odaklanma hem de sosyal yaşam alanı sunan modern bir merkez kazandırıldı.",
@@ -314,56 +314,56 @@ export const REFERENCES_DATA = [
   {
     name: "RAMS Türkiye",
     category: "Gayrimenkul & Yatırım",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.05.101.jpeg"
+    logo: "/images/referanslar/rams.jpeg"
   },
   {
     name: "Keleşoğlu Holding",
     category: "Gayrimenkul & İnşaat",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.05.10.jpeg"
+    logo: "/images/referanslar/kelesoglu.jpeg"
   },
   {
     name: "İstanbul Üniversitesi Cerrahpaşa",
     category: "Devlet & Akademi",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04 (6).jpeg"
+    logo: "/images/referanslar/cerrahpasa.jpeg"
   },
   {
     name: "Büyükçekmece Müftülüğü",
     category: "Kamu Kurumu",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04 (3).jpeg"
+    logo: "/images/referanslar/buyukcekmece-muftuluk.jpeg"
   },
   {
     name: "Maviyol Mimarlık & İnşaat",
     category: "Mühendislik & Yapı",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04 (5).jpeg"
+    logo: "/images/referanslar/maviyol.jpeg"
   },
   {
     name: "Varlık Makina",
     category: "Endüstri & Mühendislik",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04 (2).jpeg"
+    logo: "/images/referanslar/varlik-makina.jpeg"
   },
   {
     name: "S.S. Teskoop Sanayi Kooperatifi",
     category: "Sanayi & Toplu İşyeri",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04.jpeg"
+    logo: "/images/referanslar/teskoop.jpeg"
   },
   {
     name: "GMS Hidrolik",
     category: "Sanayi Çözümleri",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04 (4).jpeg"
+    logo: "/images/referanslar/gms-hidrolik.jpeg"
   },
   {
     name: "Suffa Vakfı",
     category: "Kurumsal & Sosyal Yapı",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.05.jpeg"
+    logo: "/images/referanslar/suffa-vakfi.jpeg"
   },
   {
     name: "Sütlüce Kadayıf",
     category: "Ticari Mekan & Restoran",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.03.jpeg"
+    logo: "/images/referanslar/sutluce-kadayif.jpeg"
   },
   {
     name: "DY Çıtır Lahmacun",
     category: "Ticari Mekan & Restoran",
-    logo: "/images/İş yapılan firmalar/WhatsApp Image 2026-10-10 at 17.04.04 (1).jpeg"
+    logo: "/images/referanslar/citir-lahmacun.jpeg"
   }
 ];

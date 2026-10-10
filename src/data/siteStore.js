@@ -81,7 +81,17 @@ export function saveStoredTeamMembers(data) {
 export function getStoredReferences() {
   try {
     const raw = localStorage.getItem(KEYS.REFERENCES);
-    if (raw) return JSON.parse(raw);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        const hasLegacyPaths = parsed.some(r => r.logo && (r.logo.includes('İş yapılan') || r.logo.includes('WhatsApp Image')));
+        if (hasLegacyPaths) {
+          saveStoredReferences(DEFAULT_REFERENCES_DATA);
+          return DEFAULT_REFERENCES_DATA;
+        }
+        return parsed;
+      }
+    }
   } catch (e) {
     console.warn('Referanslar okunamadı:', e);
   }

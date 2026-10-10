@@ -35,6 +35,7 @@ export default function ReferencesSection({ references }) {
                   alt={ref.name}
                   className="reference-marquee-logo"
                   loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="reference-marquee-info">
